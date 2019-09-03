@@ -1,0 +1,8 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ldyulia/typescript-propject",
+  "author": "ldyulia <leejulia.dy@gmail.com>",
+  "license": "MIT"
+}
