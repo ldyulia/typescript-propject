@@ -6,7 +6,9 @@
   "author": "ldyulia <leejulia.dy@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js",
-    "prestart": "tsc"
+    "start": "tsc-watch --onSuccess \" node index.js\" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^2.4.0"
   }
 }
