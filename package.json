@@ -4,5 +4,9 @@
   "main": "index.js",
   "repository": "https://github.com/ldyulia/typescript-propject",
   "author": "ldyulia <leejulia.dy@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "tsc"
+  }
 }
