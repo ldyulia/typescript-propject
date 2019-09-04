@@ -6,9 +6,12 @@
   "author": "ldyulia <leejulia.dy@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "tsc-watch --onSuccess \" node index.js\" "
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
   },
   "devDependencies": {
     "tsc-watch": "^2.4.0"
+  },
+  "dependencies": {
+    "typescript": "^3.6.2"
   }
 }
